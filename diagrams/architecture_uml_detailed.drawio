@@ -1,0 +1,324 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="ewcdRvcCuMd66luVbxa9" name="Page-4">
+    <mxGraphModel dx="1808" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-10" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="qVVZNmn-ShublQ6YUpiT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-5" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.628;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="qVVZNmn-ShublQ6YUpiT-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1728.03" y="690.03" />
+              <mxPoint x="1656.09" y="690.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-15" edge="1" parent="1" source="2ytYVH0gBjAwRvC8w8v--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="EXUkOVVtkh_T1x4Ya757-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytYVH0gBjAwRvC8w8v--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;GammaDistribution&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- gamma: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- kappa: float&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;+ &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;get_scale_rate(): float [2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ mean (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ variance (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ skewness (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ kurtosis (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ pdf (x: float [*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ log_pdf (x: float [*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ is_valid_parameter_space(): Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="230" x="2215" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-14" edge="1" parent="1" source="IGSXfVKyRpnQMdaieYdP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="EXUkOVVtkh_T1x4Ya757-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGSXfVKyRpnQMdaieYdP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-left: 0px;&quot;&gt;GaussianDistribution&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- mu: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- sigma: float&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ mean (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ variance (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ skewness (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ kurtosis (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ pdf (x: float[*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ log_pdf (x: float[*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ is_valid_parameter_space (): Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="230" x="1950" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-13" edge="1" parent="1" source="IGSXfVKyRpnQMdaieYdP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="EXUkOVVtkh_T1x4Ya757-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGSXfVKyRpnQMdaieYdP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;MultinomialDistribution&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- probabilities: float [*]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ mean (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ variance (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ skewness (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ kurtosis (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ pdf (x: float [*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ log_pdf (x: float [*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ is_valid_parameter_space (): Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="170" width="230" x="1685" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-18" edge="1" parent="1" source="IGSXfVKyRpnQMdaieYdP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=12;endArrow=block;endFill=0;strokeWidth=2;" target="EXUkOVVtkh_T1x4Ya757-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGSXfVKyRpnQMdaieYdP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-bottom: 0px;&quot;&gt;BetaDistribution&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- alpha: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- beta: float&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ mean (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ variance (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ skewness (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ kurtosis (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ pdf (x: float [*]): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ log_pdf(x: float [*]): float[*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ is_valid_parameter_space (): Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="230" x="2480" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EXUkOVVtkh_T1x4Ya757-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-bottom: 0px;&quot;&gt;&lt;i&gt;ParametricDistribution&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# params: float [*]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_params (): float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;mean ()&lt;/i&gt;: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;variance ()&lt;/i&gt;: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;skewness ()&lt;/i&gt;: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;kurtosis ()&lt;/i&gt;: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;pdf (x: float [*])&lt;/i&gt;: float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;log_pdf (x: float [*])&lt;/i&gt;: float [*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;is_valid_parameter_space ()&lt;/i&gt;: Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="230" x="2100" y="421" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-21" edge="1" parent="1" source="qVVZNmn-ShublQ6YUpiT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.375;exitY=1.005;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;strokeWidth=2;jumpStyle=line;jumpSize=11;endArrow=open;endFill=0;endSize=12;exitPerimeter=0;" target="SK7C43dXFTeFmubiHTc2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVVZNmn-ShublQ6YUpiT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;RiemannianStatisticalManifold&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# distance_matrix: float[*][*] [0..1]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ set_distance_matrix (d: float [*][*]): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_distance_matrix (): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;metric (theta: float[*])&lt;/i&gt;: float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;christoffel_symbols (theta: float[*])&lt;/i&gt;: float [*][*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ compute_distance_matrix (solver: GeodesicSolver): float [*][*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="360" x="1430" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBLjt08RIFz1UZC8U-eP-3" edge="1" parent="1" source="qVVZNmn-ShublQ6YUpiT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="qVVZNmn-ShublQ6YUpiT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVVZNmn-ShublQ6YUpiT-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-left: 0px;&quot;&gt;ProductManifold&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ metric(theta: float [*]): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ christoffel_symbols(theta: float [*]): float [*][*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ compute_distance_matrix (solver: GeodesicSolver): float [*][*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1290" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-19" edge="1" parent="1" source="qVVZNmn-ShublQ6YUpiT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;endSize=12;startArrow=diamond;startFill=1;startSize=12;strokeWidth=2;jumpStyle=arc;jumpSize=12;" target="EXUkOVVtkh_T1x4Ya757-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93KJ9wW7P4U8XVWfbPDC-3" edge="1" parent="1" source="qVVZNmn-ShublQ6YUpiT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.349;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=1;endSize=12;strokeWidth=2;" target="qVVZNmn-ShublQ6YUpiT-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="520" />
+              <mxPoint x="1200" y="360.1" />
+              <mxPoint x="1415.6" y="360.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVVZNmn-ShublQ6YUpiT-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;ParametricStatisticalManifold&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ add_element (p: ParametricDistribution): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_elements (): ParametricDistribution[*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# &lt;i&gt;validate_element (p: ParametricDistribution)&lt;/i&gt;: Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="88" width="310" x="1047" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="93KJ9wW7P4U8XVWfbPDC-2" edge="1" parent="1" source="SK7C43dXFTeFmubiHTc2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="qVVZNmn-ShublQ6YUpiT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-7" edge="1" parent="1" source="SK7C43dXFTeFmubiHTc2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;endArrow=open;endFill=0;endSize=12;" target="ZVRPOjG7ftGlIqKa2yVY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SK7C43dXFTeFmubiHTc2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;StatisticalHadamardManifold&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" vertex="1">
+          <mxGeometry height="46" width="220" x="910" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-7" edge="1" parent="1" source="SK7C43dXFTeFmubiHTc2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;" target="qVVZNmn-ShublQ6YUpiT-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="398" />
+              <mxPoint x="960" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SK7C43dXFTeFmubiHTc2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;StatisticalHadamardManifoldBuilder&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ StatisticalHadamardManifoldBuilder (target: StatisticalHadamardManifold)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ add_element (p: ParametricDistribution): StatisticalHadamardManifoldBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ build (): StatisticalHadamardManifold&lt;/p&gt;" vertex="1">
+          <mxGeometry height="88" width="450" x="430" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-10" edge="1" parent="1" source="SK7C43dXFTeFmubiHTc2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=2;endArrow=block;endFill=0;endSize=12;" target="Qc8KeCRPh0PYECTSTm-E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TJz_X_5ri0sDqPSd0xMe-2" edge="1" parent="1" source="SK7C43dXFTeFmubiHTc2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="qVVZNmn-ShublQ6YUpiT-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1001" y="400" />
+              <mxPoint x="1124.5" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SK7C43dXFTeFmubiHTc2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;MultinomialManifold&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ metric (theta: float [*]): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ christoffel_symbols (theta: float [*]): float [*][*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# validate_element (p: ParametricDistribution): Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ closed_form_distance (p1: ParametricDistribution, p2: ParametricDistribution): float&lt;/p&gt;" vertex="1">
+          <mxGeometry height="106" width="470" x="766" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-4" edge="1" parent="1" source="U8Hz7sRHiiJ_VYtKi3MO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=12;endArrow=block;endFill=0;strokeWidth=2;" target="SK7C43dXFTeFmubiHTc2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8Hz7sRHiiJ_VYtKi3MO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 0px; text-align: center; padding-top: 8px;&quot;&gt;BetaManifold&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ metric (theta: float [*]): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ christoffel_symbols (theta: float [*]): float [*][*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# validate_element (p: ParametricDistribution): Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="88" width="310" x="430" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-5" edge="1" parent="1" source="U8Hz7sRHiiJ_VYtKi3MO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=12;endArrow=block;endFill=0;strokeWidth=2;" target="SK7C43dXFTeFmubiHTc2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8Hz7sRHiiJ_VYtKi3MO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;GammaManifold&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ metric (theta: float [*]): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ christoffel_symbols(theta: float [*]): float [*][*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# validate_element (p: ParametricDistribution): Boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="88" width="310" x="430" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-2" edge="1" parent="1" source="U8Hz7sRHiiJ_VYtKi3MO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="SK7C43dXFTeFmubiHTc2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8Hz7sRHiiJ_VYtKi3MO-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-bottom: 0px;&quot;&gt;GaussianManifold&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ metric(theta: float[*]): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ christoffel_symbols(theta: float[*]): float [*][*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# validate_element(p: ParametricDistribution): Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ closed_form_distance(p1: ParametricDistribution, p2: ParametricDistribution): float&lt;/p&gt;" vertex="1">
+          <mxGeometry height="106" width="460" x="280" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;&quot;&gt;&lt;i&gt;ClosedFormManifold&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 8px 0px 0px 4px; text-align: left;&quot;&gt;+ &lt;i&gt;closed_form_distance(p1: ParametricDistribution, p2: ParametricDistribution)&lt;/i&gt;: float&lt;/p&gt;" vertex="1">
+          <mxGeometry height="81" width="470" x="90" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8KeCRPh0PYECTSTm-E-20" edge="1" parent="1" source="qVVZNmn-ShublQ6YUpiT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=12;strokeWidth=2;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="qVVZNmn-ShublQ6YUpiT-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1279.5" y="447" />
+            </Array>
+            <mxPoint x="1240" y="519.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93KJ9wW7P4U8XVWfbPDC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;use&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1380" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="TJz_X_5ri0sDqPSd0xMe-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;2..*&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1147" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1367" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-6" edge="1" parent="1" source="Qc8KeCRPh0PYECTSTm-E-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=0;endArrow=none;endFill=0;startSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;entryX=0.096;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="U8Hz7sRHiiJ_VYtKi3MO-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.62" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="869" y="367" as="geometry" />
+        </mxCell>
+        <mxCell id="j4MIwl4ajHRTDdw79w8Q-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="988" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="G8ckvmOXtXKYJFPp6OJt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;target&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="893" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="G8ckvmOXtXKYJFPp6OJt-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1365" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="G8ckvmOXtXKYJFPp6OJt-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;2..*&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2035" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;&quot;&gt;&lt;i&gt;GeodesicSolver&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 8px 0px 0px 4px; text-align: left;&quot;&gt;+ &lt;i&gt;compute_distance_matrix (m: ParametricStatisticalManifold)&lt;/i&gt;: float [*][*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="81" width="400" x="988" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-3" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="ZVRPOjG7ftGlIqKa2yVY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-9" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;startSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="ZVRPOjG7ftGlIqKa2yVY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;GeodesicSolverFactory&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 8px 0px 0px 4px; text-align: left;&quot;&gt;&lt;u&gt;+ create_solver (m: RiemannianStatisticalManifold, type: String): GeodesicSolver&lt;/u&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="66" width="450" x="1503" y="827.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;create&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1416" y="827.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;use&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1666" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;GeodesicComputationFacade&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 10px 0px 0px 4px; text-align: left;&quot;&gt;+ compute (m: RiemannianStatisticalManifold, solverType: String, listeners: SolverListener [*]): float [*][*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="66" width="570" x="1815" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;use&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1867" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-17" edge="1" parent="1" source="7YRHyNWVR-i07Cy9O-Wk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;exitX=0.636;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="EXUkOVVtkh_T1x4Ya757-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520.8" y="960" />
+              <mxPoint x="2440" y="960" />
+              <mxPoint x="2440" y="516" />
+            </Array>
+            <mxPoint x="1520.1999999999998" y="1017.81" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-18" edge="1" parent="1" source="7YRHyNWVR-i07Cy9O-Wk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=2;endArrow=block;endFill=0;endSize=12;exitX=0.379;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZVRPOjG7ftGlIqKa2yVY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415.4" y="960" />
+              <mxPoint x="1188" y="960" />
+            </Array>
+            <mxPoint x="1415.7800000000002" y="1020.7" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qEQK7Z9xAGHgEjNwkwa5-3" edge="1" parent="1" source="7YRHyNWVR-i07Cy9O-Wk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=diamond;startFill=1;startSize=12;strokeWidth=2;exitX=1;exitY=0.385;exitDx=0;exitDy=0;exitPerimeter=0;" target="qEQK7Z9xAGHgEjNwkwa5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="1090" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;use&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2040" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-9" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=2;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=12;" target="jbp162W0kuKtVXD9cvo1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;&quot;&gt;&lt;i&gt;SolverListener&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;on_computation_finished (metrics: SolverMetrics)&lt;/i&gt;: void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ &lt;i&gt;on_graph_built (seconds: float)&lt;/i&gt;: void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="320" x="1910" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-20" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="7YRHyNWVR-i07Cy9O-Wk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1464.9999999999995" y="1189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVRPOjG7ftGlIqKa2yVY-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;EDOGeodesicSolver&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- bvp_method: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- tolerance: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- max_iter: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- n_nodes: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- ivp_solver: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# solve_path (p1: ParametricDistribution, p2: ParametricDistribution): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# validate_christoffel_symbols (m: StatisticalHadamardManifold): Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# shoot_geodesic (p1: ParametricDistribution, v0: float[*]): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# solve_bvp_collocation (m: StatisticalHadamardManifold): float&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="410" x="1000" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="qEQK7Z9xAGHgEjNwkwa5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-bottom: 0px; padding-top: 0px;&quot;&gt;SolverMetrics&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# total_computation_time: float [0..1]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# pair_count: Integer [0..1]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# total_process_time: float [0..1]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ record_pair_time (t: float): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ record_total_process_time (t: float): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_total_computation_time (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_average_pair_time (): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_total_process_time (): float&lt;/p&gt;" vertex="1">
+          <mxGeometry height="170" width="240" x="2270" y="996" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1666" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2220" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1666" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;0..*&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2020" y="1245" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-10" edge="1" parent="1" source="jbp162W0kuKtVXD9cvo1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;startArrow=none;startFill=0;startSize=12;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="ZVRPOjG7ftGlIqKa2yVY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-11" edge="1" parent="1" source="jbp162W0kuKtVXD9cvo1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="qEQK7Z9xAGHgEjNwkwa5-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2710" y="1439.97" />
+              <mxPoint x="2710" y="1080.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;ConsoleMetricsLogger&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ on_computation_finished(metrics: SolverMetrics): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ on_graph_built(seconds: float): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="330" x="2207" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="7YRHyNWVR-i07Cy9O-Wk-3" edge="1" parent="1" source="jbp162W0kuKtVXD9cvo1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="qEQK7Z9xAGHgEjNwkwa5-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2710" y="1565" />
+              <mxPoint x="2710" y="1081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-bottom: 0px;&quot;&gt;CsvMetricsLogger&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- file_path: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ on_computation_finished(metrics: SolverMetrics): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ on_graph_built(seconds: float): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="330" x="2207" y="1515" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;use&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2600" y="1404" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;font&gt;use&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2600" y="1527" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-19" edge="1" parent="1" source="jbp162W0kuKtVXD9cvo1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;" target="7YRHyNWVR-i07Cy9O-Wk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1464.9999999999995" y="1189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;ClosedFormGeodesicSolver&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- supported_manifold_types: ClosedFormManifold [*]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# solve_path (p1: ParametricDistribution, p2: ParametricDistribution): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# prepare (m: ClosedFormManifold): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# validate_manifold_compatibility (m: ClosedFormManifold): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="420" x="1450" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-21" edge="1" parent="1" source="jbp162W0kuKtVXD9cvo1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.644;exitY=-0.001;exitDx=0;exitDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7YRHyNWVR-i07Cy9O-Wk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465.0588235294117" y="1189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;GraphGeodesicSolver&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- algorithm: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# graph_construction_time: float [0..1]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# solve_path (p1: ParametricDistribution, p2: ParametricDistribution): float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# prepare (m: StatisticalHadamardManifold): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ get_graph_construction_time (): float&lt;/p&gt;" vertex="1">
+          <mxGeometry height="126" width="450" x="510" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="jbp162W0kuKtVXD9cvo1-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;&quot;&gt;&lt;i&gt;GraphBuilder&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 10px 0px 0px 4px; text-align: left;&quot;&gt;+ &lt;i&gt;build_graph (m: StatisticalHadamardManifold)&lt;/i&gt;: float [*][*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="491" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-6" edge="1" parent="1" source="qqQPLsZR5oTbhc08vJSn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="jbp162W0kuKtVXD9cvo1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;KNNGraphBuilder&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- k: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- tau: Integer&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ build_graph (m: StatisticalHadamardManifold): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# verify_connectivity (): Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# compute_knn_matrix (): float [*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="126" width="330" x="90" y="932" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-7" edge="1" parent="1" source="qqQPLsZR5oTbhc08vJSn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;strokeWidth=2;dashed=1;dashPattern=8 8;" target="jbp162W0kuKtVXD9cvo1-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center; padding-bottom: 0px;&quot;&gt;EpsilonGraphBuilder&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;- epsilon: float&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;+ build_graph (m: StatisticalHadamardManifold): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# verify_connectivity (): Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# compute_ball_tree (): float [*]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="90" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-3" edge="1" parent="1" source="jbp162W0kuKtVXD9cvo1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.357;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;endSize=12;strokeWidth=2;" target="jbp162W0kuKtVXD9cvo1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="qqQPLsZR5oTbhc08vJSn-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="7YRHyNWVR-i07Cy9O-Wk-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;fillColor=#ffffff;strokeColor=#000000;" value="&lt;p style=&quot;margin: 8px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AbstractGeodesicSolver&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;# num_threads: Integer [0..1]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ compute_distance_matrix (m: ParametricStatisticalManifold): float [*][*]&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ get_metrics (): SolverMetrics&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ add_listener (l: SolverListener): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ remove_listener (l: SolverListener): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# &lt;i&gt;solve_path (p1: ParametricDistribution, p2: ParametricDistribution)&lt;/i&gt;: float&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# prepare (m: ParametricStatisticalManifold): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# notify_listeners (): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# notify_graph_built (seconds: float): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="184.5" width="410" x="1256" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="7YRHyNWVR-i07Cy9O-Wk-7" edge="1" parent="1" source="ZVRPOjG7ftGlIqKa2yVY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=0;endSize=12;strokeWidth=2;" target="7YRHyNWVR-i07Cy9O-Wk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,8 @@
+name: frgc
+channels:
+  - conda-forge
+dependencies:
+  - compilers
+  - cmake>=3.20
+  - ninja
+  - pkg-config

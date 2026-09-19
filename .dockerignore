@@ -1,0 +1,66 @@
+# Version control
+.git/
+.gitignore
+
+# Build artifacts
+build/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
+
+# Data and results
+data/
+results/
+*.csv
+*.parquet
+*.h5
+*.npy
+*.npz
+
+# Documentation and diagrams
+diagrams/
+docs/
+*.pdf
+*.png
+*.jpg
+*.svg
+
+# Project metadata not needed inside the image
+LICENSE
+README.md
+*.md
+
+# Caches and misc
+.ccache/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
