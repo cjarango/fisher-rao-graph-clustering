@@ -3,6 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - compilers
-  - cmake>=3.20
+  - cmake>=3.20,<4
   - ninja
   - pkg-config
+  - boost-cpp
+  - doctest
+  - gnuplot
+  - nlohmann_json

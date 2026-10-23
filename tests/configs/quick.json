@@ -1,0 +1,19 @@
+{
+  "output_dir": "results_quick",
+  "base_seed": 123,
+  "replicates": 5,
+  "N_values": [10, 30, 50, 80 ,100],
+  "families": ["Gaussian", "Gamma", "Beta"],
+  "regimes": ["U", "M2", "L3"],
+  "bvp": {
+    "max_iter": 50,
+    "tol": 1e-6,
+    "rk4_steps": 100,
+    "fd_epsilon": 1e-7
+  },
+  "sampling": {
+    "s_min": 0.05, "s_max": 0.20,
+    "halo_w_min": 0.15, "halo_w_max": 0.40,
+    "halo_k_min": 2.5, "halo_k_max": 6.0
+  }
+}

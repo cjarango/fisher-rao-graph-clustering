@@ -14,7 +14,11 @@ COPY environment.yml /tmp/environment.yml
 RUN micromamba create -f /tmp/environment.yml -y \
     && micromamba clean --all --yes
 
-ENV MAMBA_DOCKERFILE_ACTIVATE=1
+# Initialize the shell and activate the environment automatically for
+# every interactive bash session.
+RUN echo 'eval "$(micromamba shell hook --shell bash)"' >> /root/.bashrc \
+ && echo 'micromamba activate frgc' >> /root/.bashrc
+
 ENV PATH=/opt/mamba/envs/frgc/bin:$PATH
 
 WORKDIR /app

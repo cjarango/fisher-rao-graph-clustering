@@ -1,0 +1,8 @@
+{
+  "output_dir": "results_smoke",
+  "replicates": 1,
+  "N_values": [10, 30],
+  "families": ["Gamma"],
+  "regimes": ["U", "M2"],
+  "bvp": { "max_iter": 100, "tol": 1e-8, "rk4_steps": 200 }
+}
